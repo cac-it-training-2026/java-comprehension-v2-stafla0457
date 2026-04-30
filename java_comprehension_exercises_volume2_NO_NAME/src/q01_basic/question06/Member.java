@@ -1,10 +1,10 @@
-package q01_basic.question05;
+package q01_basic.question06;
 
 public class Member extends AbstMember {
-	private int id;
-	private String password;
-	private int age;
-	private int rank;
+	protected int id;
+	protected String password;
+	protected int age;
+	protected int rank;
 
 	public int getId() {
 		return id;
@@ -65,7 +65,6 @@ public class Member extends AbstMember {
 
 	@Override
 	public void buyItem() {
-
 		System.out.println(name + " purchased the item at 50% off");
 	}
 
@@ -78,6 +77,7 @@ public class Member extends AbstMember {
 		System.out.println("age:" + age);
 		System.out.println("rank:" + rank);
 		System.out.println("*****************");
+
 	}
 
 }
