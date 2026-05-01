@@ -36,6 +36,7 @@ public class Coupon {
 		this.description = null;
 	}
 
+	//
 	/**
 	 * @param id
 	 * @param discountRate
